@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+#top {
+    width: 100%;
+    height: 27px;
+    background: url(../img/top_bg.jpg) repeat-x;
+}
+
+#top .top_comtent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#top .top_comtent li {
+    list-style-image: url(../img/li_bg.gif);
+    width: 70px;
+    line-height: 27px;
+    float: right;
+}
+
+#top .top_comtent li a {
+    text-decoration: none;
+}
+
+#top .top_comtent li a:hover {
+    color: red;
+}
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    background-color: #fff;
+}
+
+.logoLeft {
+    width: 200px;
+    float: left;
+}
+
+.logoRight {
+    width: 300px;
+    height: 28px;
+    color: #8e8e8e;
+    float: right;
+    margin-top: 30px;
+}
+
+.logoRight img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logospan2 {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 以块状元素显示 */
+#mainnav {
+    width: 1000px;
+    height: 40px;
+    clear: both;
+    margin: 0 auto;
+    display: block;
+}
+
+.navLeft {
+    width: 10px;
+    height: 40px;
+    background: url(../img/nav_left.jpg);
+}
+
+.navMiddle {
+    width: 980px;
+    height: 40px;
+    background: url(../img/nav_bg.jpg);
+}
+
+.navRight {
+    width: 10px;
+    height: 40px;
+    background: url(../img/nav_right.jpg);
+}
+
+.navLeft,
+.navMiddle,
+.navRight {
+    float: left;
+}
+
+.navMiddleLeft {
+    width: 680px;
+    height: 40px;
+    float: left;
+}
+
+.navMiddleRight {
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+
+.navMiddleLeft li {
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.navMiddleLeft ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.searchText {
+    width: 190px;
+    height: 25px;
+    float: left;
+    margin-top: 5.5px;
+    background: url(../img/search.jpg) no-repeat right center;
+    /* background-repeat:no-repeat; */
+    /* background-position: right center;  */
+    background-color: #fff;
+    padding-right: 25px;
+}
+
+#myfocus,
+.lunbo {
+    width: 1000px;
+    clear: both;
+    height: 310px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#information {
+    width: 1000px;
+    height: 250px;
+    margin: 3px auto 0;
+    background-color: #F5F5F5;
+}
+
+/* 第一种三列布局写法 */
+/* .news_focus {
+    width: 285px;
+    height: 250px;
+    float: left;
+    border: 1px solid #8e8e8e;
+}
+
+.course_center {
+    width: 410px;
+    height: 250px;
+    float: left;
+    margin: 0px 7px;
+    border: 1px solid #8e8e8e;
+}
+
+.media_focus {
+    width: 285px;
+    height: 250px;
+    float: left;
+    border: 1px solid #8e8e8e;
+} */
+
+
+/* 第二种三列布局方法 */
+.news_focus {
+    width: 285px;
+    height: 250px;
+    float: left;
+    border: 1px solid #8e8e8e;
+}
+
+.course_center {
+    width: 410px;
+    height: 250px;
+    margin: 0px 0px 0px 7px;
+    display: inline-block;
+    border: 1px solid #8e8e8e;
+}
+
+.media_focus {
+    width: 285px;
+    height: 250px;
+    float: right;
+    border: 1px solid #8e8e8e;
+}
+
+/* 三列信息栏内部布局 */
+#information{
+    background-color: #fff;
+}
+/* 新闻中心CSS开始 */
+#information .news_focus .news_title{
+    height:35px;
+    border-bottom: 2px solid #E8E8E8;
+}
+
+.news_left{
+    width: 70%;
+    font-size: 15px;
+    float: left;
+    color: #786f66;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.news_right{
+    width: 20%;
+    font-size: 10px;
+    float: right;
+    line-height: 35px;
+    text-decoration: none;
+    color: #999999;
+}
+
+#information .news_content img{
+    float: left;
+}
+
+.news_content img{
+    margin: 5px 5px 0px 0px;
+}
+
+.news_content {
+    margin-top: 5px;
+    line-height: 22px;
+}
+
+.news_content a{
+    color: #cc0000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.news_list{
+    margin-top: 20px;
+}
+
+.news_list li{
+    margin: 8px;
+    padding-left: 18px;
+    border-bottom: 1px dotted #ccc;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-image: url(../img/list.jpg)
+}
+
+.news_list li a{
+    color: black;
+    text-decoration: none;
+}
+
+.news_list ul li span{
+    float: right;
+    color: #ccc;
+}
+
+.news_list ul li a:hover{
+    color: #cc0000;
+}
+/* 新闻中心CSS结束 */
+
+/* 课程中心CSS开始 */
+.course_title{
+    height: 35px;
+    border-bottom: 2px solid #E8E8E8;
+}
+
+.course_title .course_left{
+    width: 70%;
+    font-size: 15px;
+    float: left;
+    color: #786f66;
+    margin-left:10px;
+    line-height:35px;
+}
+
+.course_title .course_right a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.course_title .course_right{
+    width: 14%;
+    font-size: 10px;
+    float: right;
+    line-height: 35px;
+}
+
+.course_content img{
+    width: 158px;
+    height: 106px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.course_content{
+    margin-top: 5px;
+    line-height: 19px;
+}
+
+.course_bottom{
+    width: 372px;
+    height: 37px;
+    margin: 32px auto;
+    background-image: url(../img/product_type_bg.jpg)
+}
+
+.course_bottom ul li{
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    /* float: left; */
+
+}
+
+.course_content a{
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.course_content a:hover{
+    color: red;
+}
+.course_bottom ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.course_bottom ul li a:hover{
+    color: red;
+}
+
+/* 脚步布局开始 */
+#foot{
+    width: 100%;
+}
+#foot .foot_content{
+    width: 1000px;  
+    height: 200px;
+    /* clear: both; */
+    margin: 5px auto;
+    background-color:#E8e8E8 ;
+}
+
+#foot .foot_content .paixu{
+    float: left;
+    width: 199px;
+    height: 150px;
+    text-align: center;
+    margin-top: 25px;
+    border-right: 1px solid #999999;
+    /* display: inline-block; */
+    list-style-type: none;
+}
+
+#foot .foot_content .paixu ul li{
+    list-style-type: none;;
+}
+
+#foot .foot_content .paixu ul li a{
+    text-decoration: none;
+}
+
+#foot .foot_content .paixu{
+    font-size: 20px;
+    color: #999999;
+    padding-top: 15px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#foot .foot_content .paixu ul li a{
+    font-size: 14px;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}
